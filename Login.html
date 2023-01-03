@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="description" content="JaviExpress" />
+  <meta name="author" content="AndroideJL" />
+  <meta name="keyword" content="Tienda Online" />
+  <link rel="stylesheet" href="Login.css">
+</head>
+
+<body>
+  <div class="wrapper fadeInDown">
+    <div id="formContent">
+
+      <h2 class="active"> Iniciar Sesion </h2>
+
+      <form>
+        <input type="text" id="inputUser" class="fadeIn second" name="login" placeholder="Usuario">
+        <input type="password" id="inputPassword" class="fadeIn third" name="login" placeholder="Contraseña">
+        <input type="button" class="fadeIn fourth" value="Iniciar" onclick="onDoLogin()">
+      </form>
+
+      <div id="formFooter">
+        <a class="underlineHover" href="#">¿Olvidaste tu contraseña?</a>
+      </div>
+
+    </div>
+  </div>
+  <script src="./Login.js"></script>
+</body>
+
+</html>
