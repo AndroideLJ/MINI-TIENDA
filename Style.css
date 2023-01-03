@@ -126,7 +126,7 @@ header a:hover{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("../Proyecto\ KOMETSALES/Imagenes/Portada.jpg");
+    ,url("./Imagenes/Portada.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -228,7 +228,7 @@ header a:hover{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("../Proyecto\ KOMETSALES/Imagenes/todo_en_uno.jpg");
+    ,url("./Imagenes/todo_en_uno.jpg");
 }
 
 .cart:nth-child(2){
@@ -238,11 +238,11 @@ header a:hover{
         0deg,
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
-    ), url("../Proyecto\ KOMETSALES/Imagenes/laptop.jpg");
+    ), url("./Imagenes/laptop.jpg");
 }
 
 .cart:nth-child(3){
-    background-image: url("../Proyecto\ KOMETSALES/Imagenes/pc_de_mesa.jpg");
+    background-image: url("./Imagenes/pc_de_mesa.jpg");
 }
 
 
