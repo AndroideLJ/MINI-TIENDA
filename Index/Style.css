@@ -9,7 +9,6 @@ html{
     scroll-behavior: smooth;
     overflow: scroll;
     overflow-x: hidden;
-    
 }
 
 head{
@@ -21,7 +20,7 @@ body{
 }
 
 h1{
-    font-size: 3.5em;
+    font-size: 1em;
     font-size: bold;
     text-align: center;
     color: white; 
@@ -30,7 +29,7 @@ h1{
 
 h2{
     font: bold 14px;
-    font-size: 3.7;
+    font-size: 4.5px;
 }
 
 h3{
@@ -54,14 +53,18 @@ li{
 }
 
 button{
-    font-size: 2.5em;
-    font-weight: bold;
-    padding: 10px 20px;
+
+    font-size: 13px;
+    margin: 5px;
+    padding: 15px 80px;
     border-radius: 10px;
     box-shadow: 2 px 2px 10px blueviolet;
     color: white;
     background-color: blueviolet;
     border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
 }
 
 button:hover{
@@ -95,15 +98,15 @@ header  .contenedor{
 }
 
 header nav{
-    display: flex;
+    display: inline-block;
     flex-direction: row;
     text-align: center;
     padding-bottom: 25px;
-    font-size: 20px;
+    font-size: 10px;
 }
 
 header a{
-    padding: 5px 100px;
+    padding: 5px 25px;
     text-decoration: none;
     font-weight: bold;
     font-size: 1.80em;
@@ -126,20 +129,21 @@ header a:hover{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("./Imagenes/Portada.jpg");
+    ,url("../Imagenes/Portada.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
 }
 
 #banner-fondo h1{
-    font-size: 7.5em;
+    font-size: 4.5em;
 
 }
 
 #banner-fondo nav{
     text-align: center;
     padding: 10px 100px;
+    font-size: 10px;
 }
 
 #banner-fondo a{
@@ -155,9 +159,13 @@ header a:hover{
 }
 
 #banner-fondo button{
-    font-size: 40px;
+    font-size: 13px;
     margin: 5px;
-    width: 100%;
+    padding: 15px 80px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    text-transform: uppercase;
 }
 
 
@@ -168,16 +176,16 @@ header a:hover{
 
 #info-javiexpress .contenedor p{
     margin-top: 0;
-    font-size: 3.2em;
+    font-size: 30px;
 }
 
 #info-javiexpress p{
-    font-size: 1.5em;
+    font-size: 10px;
     text-align: justify;
 }
 
 #info-javiexpress h3{
-    font-size: 5.5em;
+    font-size: 4.5em;
     text-align: center; 
     text-shadow: gray 0.1em 0.1em 0.1em
 }
@@ -190,7 +198,7 @@ header a:hover{
 
 #categorias h2{
     margin-top: 0;
-    font-size: 3.2em;
+    font-size: 50px;
 }
 
 #categorias .contenedor{
@@ -218,8 +226,8 @@ header a:hover{
     background-position: center center;
     background-size: cover;
     padding: 50px;
-    margin: 20px;
-    border-radius: 20px;
+    margin: 80px;
+    border-radius: 10px;
 }
 
 .cart:first-child{
@@ -228,7 +236,7 @@ header a:hover{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("./Imagenes/todo_en_uno.jpg");
+    ,url("../Imagenes/todo_en_uno.jpg");
 }
 
 .cart:nth-child(2){
@@ -238,11 +246,11 @@ header a:hover{
         0deg,
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
-    ), url("./Imagenes/laptop.jpg");
+    ), url("../Imagenes/laptop.jpg");
 }
 
 .cart:nth-child(3){
-    background-image: url("./Imagenes/pc_de_mesa.jpg");
+    background-image: url("../Imagenes/pc_de_mesa.jpg");
 }
 
 
@@ -250,7 +258,7 @@ header a:hover{
     margin: 16px 0px;
     font-weight: bold;
     text-align: center;
-    font-size: 2.5em;
+    font-size: 20px;
 
 }
 
@@ -272,11 +280,11 @@ header a:hover{
 }
 
 footer .firma{
-    height: 150px;
+    height: 80px;
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    font-size: 1.5em;
+    font-size: 15px;
 }
 
 

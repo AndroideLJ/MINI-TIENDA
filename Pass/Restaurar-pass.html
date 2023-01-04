@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="description" content="JaviExpress" />
+  <meta name="author" content="AndroideJL" />
+  <meta name="keyword" content="Tienda Online" />
+  <link rel="stylesheet" href="Restaurar-pass.css">
+</head>
+
+<body>
+  <div class="wrapper fadeInDown">
+    <div id="formContent">
+
+      <h2 class="active"> Restablecer contraseña </h2>
+
+      <form id="formPass">
+        <input type="text" id="inputEmail" class="fadeIn second" name="Email" placeholder="Email">
+        <input type="text" id="inputIdent" class="fadeIn third" name="Identificacion" placeholder="Identificacion">
+        <input type="button" class="fadeIn fourth" value="Restablecer" onclick="onDoPass()">
+      </form>
+
+      <div id="formFooter">
+        <a class="underlineHover" href="#" onclick="onDoRenviar()">Renviar correo</a>
+      </div>
+
+    </div>
+  </div>
+  <script src="../Pass/Restaurar-pass.js"></script>
+</body>
+
+</html>
